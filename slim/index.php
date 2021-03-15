@@ -8,6 +8,7 @@ $app->get("/hola/:nombre", function($nombre){
 
 echo "Hola ".$nombre;
 
+
 });
 
 function pruebaMiddle(){
